@@ -155,19 +155,21 @@ const Grid = () => {
 
             </div>
             <div className="w-full">
-                {message && (
-                    <div className="w-full text-center mt-10 text-lg font-semibold text-white">
-                        {message}
-                    </div>
-                )}
-                <div className="justify-center w-full text-center mt-6">
+
+                <div className="justify-center w-full text-center mt-6 mb-6">
                     <button
                         onClick={checkValues}
-                        className="bg-orange-400 text-black text-lg px-4 py-2 rounded font-semibold"
+                        className="bg-orange-600 text-white text-lg px-4 py-2 rounded font-semibold"
                     >
                         Verificar
                     </button>
                 </div>
+
+                {message && (
+                    <div className="w-full text-center mb-6 text-lg font-semibold text-white">
+                        {message}
+                    </div>
+                )}
 
             </div>
         </>
