@@ -11,7 +11,7 @@ export default function Home() {
                 backgroundPosition: 'center'
             }}>
 
-            <div className='mb-6 flex flex-col items-center text-white'>
+            <div className='mb-10 flex flex-col items-center text-white'>
                 <h1 className='font-bold text-3xl'>
                     CRUCIGRAMA
                 </h1>
